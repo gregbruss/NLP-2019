@@ -3,7 +3,8 @@ Project for Natural Language Processing 2019.
 
 # The analogy space of a word embedding
 ![alt text](https://nlp.stanford.edu/projects/glove/images/comparative_superlative.jpg "Visualizing the glove embedding across analogical relationships, GloVe, 2014")
-"Visualizing the glove embedding across analogical relationships, GloVe, 2014"
+
+                  Figure 1: "Visualizing the glove embedding across analogical relationships, GloVe, 2014"
 
 
 
