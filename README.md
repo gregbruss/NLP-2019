@@ -38,6 +38,12 @@ multiple correct answers where applicable. For example, both mammal and canine a
 ### Other work on BATS: 
 ![alt text](http://vecto.space/assets/img/bats_stats.png "BATS Performance, Gladkova 2015")
 
+
+### Future work
+This work has presented a complete implementation of the analogy finding task over multiple categories for a pre-trained word embedding, and evaluated the results in comparison to a human baseline. It was shown that human beings completely outperform this model, but that the model does a fairly good job given the fact that random guessing would almost certainly produce no correct answers. Issues of general evaluation of semantic spaces was discussed, as well as potential markers of bias in the space - namely the distance bias introduced by the prominent role of cosine similarity.
+
+Future work should look into quantitative evaluation of how the performance gap changes as we increase the size of the word vector, perhaps from 50-dimensional to 300-dimensional.
+
 #### For figure information, see:
 GloVe models: https://nlp.stanford.edu/projects/glove/
 [1] Pennington, J., Socher, R., & Manning, C. (2014). Glove: Global vectors for word representation. In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP) (pp. 1532-1543).
