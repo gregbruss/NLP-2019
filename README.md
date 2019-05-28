@@ -38,10 +38,11 @@ multiple correct answers where applicable. For example, both mammal and canine a
 ### Other work on BATS: 
 ![alt text](http://vecto.space/assets/img/bats_stats.png "BATS Performance, Gladkova 2015")
 
-## References:
+#### For figure information, see:
 GloVe models: https://nlp.stanford.edu/projects/glove/
-
 [1] Pennington, J., Socher, R., & Manning, C. (2014). Glove: Global vectors for word representation. In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP) (pp. 1532-1543).
+
+http://vecto.space/projects/BATS/
 
 
 
