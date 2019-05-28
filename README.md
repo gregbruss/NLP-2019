@@ -20,7 +20,5 @@ _Adjective/Superlative_: An adjective followed by its superlative form, such as 
 A pre-trained, 50 dimensional GloVe word embedding was used for this task, which was trained on 6 billion tokens from the Wikipedia 2014 dataset. In extensions of this work, one could use different sized embeddings and see how performance differs. A 300-dimensional embedding trained on 42 billion tokens is available. Some tests were run with it, but the computational overhead was too large for this project.
 
 ### Issues with Analogy Finding
-The overall centrality of cosine similarity in this task is potentially a point of concern, in that it may be the case that the method is evaluating not just linguistic regularity but actually the local neighborhood of the x vector: \emph{$$
-x = a^*-a+b
-$$}.
-\\
+The overall centrality of cosine similarity in this task is potentially a point of concern, in that it may be the case that the method is evaluating not just linguistic regularity but actually the local neighborhood of the x vector:
+\(x = a^*-a+b\)
