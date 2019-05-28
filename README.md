@@ -1,6 +1,12 @@
 # NLP-2019
 Project for Natural Language Processing 2019.
 
+#### Installation
+    pip install mxnet
+    pip install numpy
+    pip install gluon
+    pip install matplotlib
+
 # The analogy space of a word embedding
 ![alt text](https://nlp.stanford.edu/projects/glove/images/comparative_superlative.jpg "Visualizing the glove embedding across analogical relationships, GloVe, 2014")
 
