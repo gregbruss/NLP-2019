@@ -3,6 +3,8 @@ Project for Natural Language Processing 2019.
 
 # The analogy space of a word embedding
 ![alt text](https://nlp.stanford.edu/projects/glove/images/comparative_superlative.jpg "Visualizing the glove embedding across analogical relationships, GloVe, 2014")
+"Visualizing the glove embedding across analogical relationships, GloVe, 2014"
+
 
 
 ## Evaluating Word Embeddings using Analogies
@@ -23,6 +25,22 @@ _Adjective/Superlative_: An adjective followed by its superlative form, such as 
 \section{Model Architecture}
 A pre-trained, 50 dimensional GloVe word embedding was used for this task, which was trained on 6 billion tokens from the Wikipedia 2014 dataset. In extensions of this work, one could use different sized embeddings and see how performance differs. A 300-dimensional embedding trained on 42 billion tokens is available. Some tests were run with it, but the computational overhead was too large for this project.
 
-### Issues with Analogy Finding
-The overall centrality of cosine similarity in this task is potentially a point of concern, in that it may be the case that the method is evaluating not just linguistic regularity but actually the local neighborhood of the x vector:
-\(x = a^*-a+b\)
+### Characteristics of the Bigger Analogy Test Set
+Bats is:
+
+### balanced and representative
+BATS covers inflectional and derivational morphology, and lexicographic and encyclopedic semantics. Each relation is represented with 10 categories, and each category contains 50 unique word pairs. This makes for 99,200 [3] questions for the vector offset method.
+### reduced homonymy:
+the morphological categories were sampled to reduce homonymy. For example, for verb present tense the Google set includes pairs like walk:walks, which could be both verbs and nouns.
+multiple correct answers where applicable. For example, both mammal and canine are hypernyms of dog. In some cases alternative spellings are listed (e.g. organize: reorganize/reorganise).
+
+### Other work on BATS: 
+![alt text](http://vecto.space/assets/img/bats_stats.png "BATS Performance, Gladkova 2015)
+
+## References:
+GloVe models: https://nlp.stanford.edu/projects/glove/
+
+[1] Pennington, J., Socher, R., & Manning, C. (2014). Glove: Global vectors for word representation. In Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP) (pp. 1532-1543).
+
+
+
