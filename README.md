@@ -36,7 +36,7 @@ the morphological categories were sampled to reduce homonymy. For example, for v
 multiple correct answers where applicable. For example, both mammal and canine are hypernyms of dog. In some cases alternative spellings are listed (e.g. organize: reorganize/reorganise).
 
 ### Other work on BATS: 
-![alt text](http://vecto.space/assets/img/bats_stats.png "BATS Performance, Gladkova 2015)
+![alt text](http://vecto.space/assets/img/bats_stats.png "BATS Performance, Gladkova 2015")
 
 ## References:
 GloVe models: https://nlp.stanford.edu/projects/glove/
