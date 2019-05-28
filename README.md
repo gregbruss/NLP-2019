@@ -1,6 +1,8 @@
 # NLP-2019
 Project for Natural Language Processing 2019.
 
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9OtKfm7q-CxBs5tpeDG4vRVEd1-OwktXPeGs45KPobOopGBEPQ "Examples of Analogy")
+
 ## Evaluating Word Embeddings using Analogies
 
 ### Motivation:
