@@ -1,6 +1,9 @@
 # NLP-2019
 Project for Natural Language Processing 2019.
 
+# The analogy space of a word embedding
+![alt text](https://nlp.stanford.edu/projects/glove/images/comparative_superlative.jpg "Visualizing the glove embedding across analogical relationships, GloVe, 2014")
+
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9OtKfm7q-CxBs5tpeDG4vRVEd1-OwktXPeGs45KPobOopGBEPQ "Examples of Analogy")
 
 ## Evaluating Word Embeddings using Analogies
